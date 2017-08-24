@@ -5,17 +5,38 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 
-  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
-  delay(1000);                       // wait for half a second
-  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
-  delay(500);                       // wait for a second
-  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
-  delay(500);                       // wait for half a second
-  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
-  delay(250);                       // wait for a second
-  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
-  delay(250);                       // wait for half a second
-  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
-  delay(125);                       // wait for a second
+  digitalWrite(LED_BUILTIN, HIGH); //S SIGNAL STARTS AFTER 2 SECOND DELAY
+  delay(2000);                       
+  digitalWrite(LED_BUILTIN, LOW);   
+  delay(1000);                       
+  digitalWrite(LED_BUILTIN, HIGH); 
+  delay(2000);                      
+  digitalWrite(LED_BUILTIN, LOW);   
+  delay(1000);                       
+  digitalWrite(LED_BUILTIN, HIGH);  
+  delay(2000);                       
+  digitalWrite(LED_BUILTIN, LOW);   //4 SECONDS DELAY BEFORE SECOND LETTER "O"
+  delay(4000);  
+   digitalWrite(LED_BUILTIN, HIGH); //O STARTS HERE
+  delay(4000);                       
+  digitalWrite(LED_BUILTIN, LOW);   
+  delay(1000);                       
+  digitalWrite(LED_BUILTIN, HIGH); 
+  delay(4000);                      
+  digitalWrite(LED_BUILTIN, LOW);   
+  delay(1000);                       
+  digitalWrite(LED_BUILTIN, HIGH);  
+  delay(4000);                       
+  digitalWrite(LED_BUILTIN, LOW);   //4 SECONDS DELAY BEFORE THE THIRD LETTER "S"
+  delay(4000);  
+    digitalWrite(LED_BUILTIN, HIGH); //S SIGNAL STARTS AFTER 2 SECOND DELAY
+  delay(2000);                       
+  digitalWrite(LED_BUILTIN, LOW);   
+  delay(1000);                       
+  digitalWrite(LED_BUILTIN, HIGH); 
+  delay(2000);                      
+  digitalWrite(LED_BUILTIN, LOW);   
+  delay(1000);                       
+  digitalWrite(LED_BUILTIN, HIGH);         
  }
 
